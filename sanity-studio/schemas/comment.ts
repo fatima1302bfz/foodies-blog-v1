@@ -4,7 +4,7 @@ export default {
   title: 'Comment',
   fields: [
     {
-      title: 'Username',
+      title: 'Usernam',
       name: 'username',
       type: 'string',
     },
