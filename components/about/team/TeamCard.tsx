@@ -26,7 +26,7 @@ const TeamCard = ({ member }: Props) => {
       <ul className={classes["social-menu"]}>
         {member.socialLinks.map((link: string, index: number) => (
           <li key={index}>
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               {socialIcon[index].icon}
             </a>
           </li>
