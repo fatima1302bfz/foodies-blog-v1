@@ -1,0 +1,72 @@
+.profile-box {
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  border-radius: 3px;
+  margin: 10px;
+  padding: 15px 10px;
+  width: 170px;
+  text-align: center;
+  transition: 300ms;
+  flex-grow: 1;
+  border: 1px solid #eee;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-box:hover {
+  box-shadow: 0 0 20px 9px rgba(0,0,0,0.03);
+}
+
+.profile-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px 0 rgba(47,83,151,0.10);
+  margin-inline: auto;
+}
+
+
+.profile-box h3 {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.profile-box h4 {
+  transition: 500ms;
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 8px;
+  color: #98A0A6;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.profile-box .social-menu {
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.profile-box:hover .social-menu {
+  right: 10px;
+}
+
+.profile-box .social-menu li {
+  padding-block: 7px;
+}
+.profile-box .social-menu li i {
+  color: var(--rose);
+  font-size: 18px;
+}
+
+
+
+
+

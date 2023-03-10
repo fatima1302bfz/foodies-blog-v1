@@ -1,0 +1,42 @@
+.comment-post {
+  display: flex;
+  margin-bottom: 25px;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+}
+.comment-img {
+  width: 40px;
+  height: 40px;
+  background: rosybrown;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.comment-details {
+  margin-left: 15px;
+  /* padding-top: 10px; */
+}
+.comment-post .comment-author {
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.comment-post .comment-time {
+  font-size: 11px;
+  margin-left: 10px;
+  color: #a7a5a5;
+}
+.comment-post .comment-content {
+  font-size: clamp(0.9rem, 1vw, 1rem);
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: #888888;
+  margin-top: 15px;
+}
+
+

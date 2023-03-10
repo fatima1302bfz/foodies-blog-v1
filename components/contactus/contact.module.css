@@ -1,0 +1,105 @@
+.contact {
+  max-width: 760px;
+  margin: 5em auto;
+  padding-top: 2rem;
+  background: #f5f5f5;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.contact h2 {
+  font-size: clamp(1.2rem, 3vw, 3rem);
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #222;
+}
+.contact form {
+  padding: 40px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.contact :where(label, input, textarea) {
+  display: block;
+  width: 100%;
+}
+
+.contact form li {
+  padding: 0.3em;
+}
+.contact label {
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.contact .required-star {
+  color: var(--rose);
+}
+
+.contact :where(input, textarea) {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  background-color: #fff;
+  caret-color: var(--rose);
+  font-size: 14px;
+  border-radius: 3px;
+  line-height: 29px;
+}
+
+.contact .submition {
+  display: flex;
+  padding-block: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .submition button {
+  all: unset;
+  border: 1px solid var(--rose);
+  padding: 8px 20px;
+  text-transform: capitalize;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  color: white;
+  background-color: var(--rose);
+}
+.contact .submition ul {
+    display: flex;
+    gap: 20px;
+}
+.contact .submition ul li {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-content: center;
+    border: 1px solid var(--text-grey);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.contact .submition ul li:hover {
+    border-color: var(--rose);
+    background-color: var(--rose);
+}
+.contact .submition ul li:hover i {
+    transform: rotateY(360deg);
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.contact .submition ul a {
+    color: var(--text-grey);
+}
